@@ -1,4 +1,9 @@
-
+/* 
+ * Author : Steven Smith
+ * Date: 3/08/23
+ * class: CS 40400
+ * Assignement: Project 1
+ */
 /**
  * This module is to be used with a concurrent Echo server.
  * Its run method carries out the logic of a client session.

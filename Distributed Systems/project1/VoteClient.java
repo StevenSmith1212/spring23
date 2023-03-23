@@ -1,3 +1,9 @@
+/* 
+ * Author : Steven Smith
+ * Date: 3/08/23
+ * class: CS 40400
+ * Assignement: Project 1
+ */
 import java.io.*;
 
 public class VoteClient {
