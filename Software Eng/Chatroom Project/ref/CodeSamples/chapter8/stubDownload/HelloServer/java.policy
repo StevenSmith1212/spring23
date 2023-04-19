@@ -1,0 +1,12 @@
+grant {
+   // Allows RMI clients to make socket connections to the
+   // public ports on any host.
+   // If you start the RMIregistry on a port in this range, you
+   // will not incur a esolve access violation.
+   permission java.net.SocketPermission "*:1024-65535", 
+      "connect, accept, resolve";
+   // Permits socket access to port 80, the default HTTP port -
+   // needed by client to contact an HTTP server for stub
+   // downloading.
+   permission java.net.SocketPermission "*:80", "connect";
+};
